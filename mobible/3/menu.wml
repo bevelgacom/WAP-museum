@@ -1,0 +1,32 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+  <template>
+    <do type="prev" label="Zurück">
+      <prev/>
+    </do>
+  </template>
+
+  <card id="top" title="Hauptmenü">
+    <p align="center">
+      <a href="options.wml">Anzeigeoptionen</a><br/>
+      <a href="psalm.wml">Heutiger Psalm</a><br/>
+      <a href="#browse">Bibel lesen</a><br/>
+      <a href="search.wml">In der Bibel suchen</a><br/>
+      <a href="lordpray.wml">Vaterunser</a><br/>
+      <a href="guest.wml">Gästebuch</a><br/>
+      <a href="credits.wml">Impressum</a>
+    </p>
+  </card>
+
+  <card id="browse" title="Blättern">
+    <p align="center">
+      <a href="ot.wml">Altes Testament</a><br/>
+      <a href="nt.wml">Neues Testament</a>
+    </p>
+  </card>
+
+</wml>
+
+

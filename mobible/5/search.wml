@@ -1,0 +1,29 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Søg">
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+    <p>Skriv søgeord her:
+      <input format="*m" name="find"/>
+    </p>
+    <p>Søg i&nbsp;
+      <select name="test" value="old">
+        <option value="old">Gamle Testamente</option>
+        <option value="new">Ny Testamente</option>
+      </select>
+    </p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/mbwf" method="get">
+          <postfield name="find" value="$find"/>
+          <postfield name="pref" value="0"/>
+          <postfield name="lang" value="$lang"/>
+	  <postfield name="test" value="$test"/>
+        </go>
+        Begynd søgning
+      </anchor>
+    </p>
+  </card>
+</wml>

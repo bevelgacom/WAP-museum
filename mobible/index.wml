@@ -1,0 +1,67 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Mobible.org">
+    <p align="center">
+      <img alt="Welcome/Willkommen/Bienvenue/Benvindo" src="logo.wbmp"/><br/>
+
+      <anchor>English
+        <go  href="0/menu.wml">
+          <setvar name="lang" value="0"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Deutsch
+        <go href="3/menu.wml">
+          <setvar name="lang" value="3"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Français
+        <go href="1/menu.wml">
+          <setvar name="lang" value="1"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Português
+        <go href="2/menu.wml">
+          <setvar name="lang" value="2"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Español
+        <go href="4/menu.wml">
+          <setvar name="lang" value="4"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Dansk
+        <go href="5/menu.wml">
+          <setvar name="lang" value="5"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Nederlands
+        <go href="6/menu.wml">
+          <setvar name="lang" value="6"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Magyar
+        <go href="7/menu.wml">
+          <setvar name="lang" value="7"/>
+        </go>
+      </anchor><br/>
+
+      <anchor>Suomi
+        <go href="8/menu.wml">
+          <setvar name="lang" value="8"/>
+        </go>
+      </anchor>
+
+    </p>
+
+    <p align="center">&#xa9;2000-2004 David De Silva</p>
+
+  </card>
+</wml>

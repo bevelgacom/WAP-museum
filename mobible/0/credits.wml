@@ -1,0 +1,17 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Credits">
+    <do type="prev" label="Back">
+      <prev/>
+    </do>
+    <p>WAP design by David De Silva.</p>
+    <p>Web site by Bob Guinn, David De Silva.</p>
+    <p>Translations by Dominique Poudret, João Gomes, Peter Croy,
+      Valentina Pantin, Morten Gudbjerg Karlsen, Robert Van Buuringen,
+      Zsolt Szalai, Markus Lampola.</p>
+    <p>Thanks also to John Burke, Will Alas.</p>
+    <p>&#xa9;2000-2004 David De Silva</p>
+  </card>
+</wml>
+

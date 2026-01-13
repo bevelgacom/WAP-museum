@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Kiitokset">
+    <do type="prev" label="Edellinen">
+      <prev/>
+    </do>
+    <p>WAP-suunnittelu ja -toteutus David De Silva.</p>
+    <p>Nettisivujen suunnittelu Bob Guinn, David De Silva.</p>
+    <p>Käännökset Markus Lampola, Dominique Poudret, João Gomes, 
+      Peter Croy, Valentina Pantin, Morten Gudbjerg Karlsen, 
+      Robert Van Buuringen, Zsolt Szalai, Nicolas Grison, 
+      Roger Branum, Anders Borg, Radif Sharafullin, 
+      Sergio Romagnoli, Cobus Kriel.</p>
+    <p>&#xa9;2004 David De Silva</p>
+  </card>
+</wml>
+

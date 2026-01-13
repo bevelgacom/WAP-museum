@@ -1,0 +1,65 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Ancien Testament">
+    <do type="prev" label="Précédent">
+      <prev/>
+    </do>
+    <p>
+    Livre:
+    <select name="book" value="Gen">
+      <option value="Gen">Genèse</option>
+      <option value="Exo">Exode</option>
+      <option value="Lev">Lévitique</option>
+      <option value="Num">Nombres</option>
+      <option value="Deu">Deutéronome</option>
+      <option value="Jos">Josué</option>
+      <option value="Jdg">Juges</option>
+      <option value="Rut">Ruth</option>
+      <option value="1Sa">1 Samuel</option>
+      <option value="2Sa">2 Samuel</option>
+      <option value="1Ki">1 Rois</option>
+      <option value="2Ki">2 Rois</option>
+      <option value="1Ch">1 Chroniques</option>
+      <option value="2Ch">2 Chroniques</option>
+      <option value="Ezr">Esdras</option>
+      <option value="Neh">Néhémie</option>
+      <option value="Est">Esther</option>
+      <option value="Job">Job</option>
+      <option value="Psa">Psaumes</option>
+      <option value="Pro">Proverbes</option>
+      <option value="Ecc">Ecclésiaste</option>
+      <option value="Son">Cantique des Cantiques</option>
+      <option value="Isa">Ésaïe</option>
+      <option value="Jer">Jérémie</option>
+      <option value="Lam">Lamentations</option>
+      <option value="Eze">Ézéchiel</option>
+      <option value="Dan">Daniel</option>
+      <option value="Hos">Osée</option>
+      <option value="Joe">Joël</option>
+      <option value="Amo">Amos</option>
+      <option value="Oba">Abdias</option>
+      <option value="Jon">Jonas</option>
+      <option value="Mic">Michée</option>
+      <option value="Nah">Nahum</option>
+      <option value="Hab">Habacuc</option>
+      <option value="Zep">Sophonie</option>
+      <option value="Hag">Aggée</option>
+      <option value="Zec">Zacharie</option>
+      <option value="Mal">Malachie</option>
+    </select><br/>
+    Chapitre: <input format="*N" name="chap" size="3" title="Chapitre" value="1"/><br/>
+    Verset: <input format="*N" name="vers" size="3" title="Verset" value="1"/><br/>
+    <anchor>
+      <go href="/cgi-bin/mbwv" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vers" value="$vers"/>
+        <postfield name="mode" value="$mode"/>
+        <postfield name="lang" value="$lang"/>
+      </go>Continuer
+    </anchor>
+    </p>
+  </card>
+</wml>
+

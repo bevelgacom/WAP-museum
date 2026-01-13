@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Oude Testament">
+    <do type="prev" label="Terug">
+      <prev/>
+    </do>
+    <p>
+    Boek:
+    <select name="book" value="Gen">
+      <option value="Gen">Genesis</option>
+      <option value="Exo">Exodus</option>
+      <option value="Lev">Leviticus</option>
+      <option value="Num">Numberi</option>
+      <option value="Deu">Deuteronomium</option>
+      <option value="Jos">Jozua</option>
+      <option value="Jdg">Richtere</option>
+      <option value="Rut">Ruth</option>
+      <option value="1Sa">1 Samuël</option>
+      <option value="2Sa">2 Samuël</option>
+      <option value="1Ki">1 Koningen</option>
+      <option value="2Ki">2 Koningen</option>
+      <option value="1Ch">1 Kronieken</option>
+      <option value="2Ch">2 Kronieken</option>
+      <option value="Ezr">Ezra</option>
+      <option value="Neh">Nehemia</option>
+      <option value="Est">Esther</option>
+      <option value="Job">Job</option>
+      <option value="Psa">Psalmen</option>
+      <option value="Pro">Spreuken</option>
+      <option value="Ecc">Prediker</option>
+      <option value="Son">Hooglied</option>
+      <option value="Isa">Jesaja</option>
+      <option value="Jer">Jeremia</option>
+      <option value="Lam">Klaagliederen</option>
+      <option value="Eze">Ezechiël</option>
+      <option value="Dan">Daniël</option>
+      <option value="Hos">Hosea</option>
+      <option value="Joe">Joël</option>
+      <option value="Amo">Amos</option>
+      <option value="Oba">Obadja</option>
+      <option value="Jon">Jona</option>
+      <option value="Mic">Micha</option>
+      <option value="Nah">Nahum</option>
+      <option value="Hab">Habakuk</option>
+      <option value="Zep">Zefanja</option>
+      <option value="Hag">Haggaï</option>
+      <option value="Zec">Zacharia</option>
+      <option value="Mal">Maleachi</option>
+    </select><br/>
+    Hoofdstuk: <input format="*N" name="chap" size="3" title="Hoofdstuk" value="1"/><br/>
+    Vers: <input format="*N" name="vrs1" size="3" title="Vers" value="1"/> -
+      <input format="*N" name="vrs2" size="3" title="Vers" value=""/><br/>
+    <anchor>
+      <go href="/cgi-bin/view" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vrs1" value="$vrs1"/>
+        <postfield name="vrs2" value="$vrs2"/>
+        <postfield name="lang" value="6"/>
+      </go>Verdergaan
+    </anchor>
+    </p>
+  </card>
+</wml>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="A Oração do Senhor">
+    <do type="prev" label="Anterior">
+      <prev/>
+    </do>
+    <p>Pai nosso que estás nos céus, santificado seja o teu nome; 
+      venha o teu reino, seja feita a tua vontade, assim na terra como no céu;
+      o pão nosso de cada dia nos dá hoje;  
+      e perdoa-nos as nossas dívidas, assim como nós também temos perdoado aos nossos devedores;
+      e não nos deixes entrar em tentação; mas livra-nos do mal.
+      Porque teu é o reino e o poder, e a glória, para sempre, Amém.
+    </p>
+  </card>
+</wml>

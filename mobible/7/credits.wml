@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Készítõk">
+    <do type="prev" label="Vissza">
+      <prev/>
+    </do>
+    <p>WAP tervezés: David De Silva.</p>
+    <p>Weboldal: Bob Guinn, David De Silva.</p>
+    <p>Nyelvváltozatok Zsolt Szalai, Dominique Poudret, João Gomes, Peter Croy,
+      Valentina Pantin, Morten Gudbjerg Karlsen, Robert Van Buuringen,
+      Markus Lampola, Nicolas Grison, Roger Branum, Anders Borg, 
+      Radif Sharafullin, Sergio Romagnoli, Cobus Kriel.</p>
+    <p>&#xa9;2004 David De Silva</p>
+  </card>
+</wml>
+

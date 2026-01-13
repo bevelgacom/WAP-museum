@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Visitors&apos; Book">
+    <do type="prev" label="Back">
+      <prev/>
+    </do>
+    <p>Thank you for visiting Mobible.org. Please sign our visitors&apos; book by
+    entering your email address here:
+      <input format="*m" name="email"/>
+    </p>
+    <p>Would you like to be kept informed of new developments?
+    <select name="news" value="Y">
+      <option value="Y">Yes</option>
+      <option value="N">No</option>
+    </select></p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/visitor" method="get">
+          <postfield name="mail" value="$email"/>
+          <postfield name="news" value="$news"/>
+          <postfield name="lang" value="$lang"/>
+        </go>
+        Submit
+      </anchor></p>
+    <p>All information submitted is kept in the strictest confidence.</p>
+  </card>
+</wml>

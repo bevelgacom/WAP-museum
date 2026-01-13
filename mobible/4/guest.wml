@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Libro de Visitas">
+    <do type="prev" label="Anterior">
+      <prev/>
+    </do>
+    <p>Gracias por visitar mobible.org. Por favor firme nuestro Libro de
+       Visitas entrando su dirección de e-mail aquí:
+      <input format="*m" name="email"/>
+    </p>
+    <p>Le gustaría estar informado sobre nuevas opciones?
+    <select name="news" value="Y">
+      <option value="Y">Si</option>
+      <option value="N">No</option>
+    </select></p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/visitor" method="get">
+          <postfield name="mail" value="$email"/>
+          <postfield name="news" value="$news"/>
+          <postfield name="lang" value="$lang"/>
+        </go>
+        Enviar
+      </anchor></p>
+    <p>Por favor note que toda información enviada es mantenida
+       estrictamente confidencial.</p>
+  </card>
+</wml>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Gæstebog">
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+    <p>Tak for Dit besøg på Mobible.org. Du kan skrive i vores gæstebog
+       ved at skrive Din e-mail adresse her:
+      <input format="*m" name="email"/>
+    </p>
+    <p>Skal vi holde Dig informeret om nye tiltag?
+    <select name="news" value="Y">
+      <option value="Y">Ja</option>
+      <option value="N">Nej</option>
+    </select></p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/visitor" method="get">
+          <postfield name="mail" value="$email"/>
+          <postfield name="news" value="$news"/>
+          <postfield name="lang" value="$lang"/>
+        </go>
+        Send
+      </anchor></p>
+    <p>Bemærk venligst at al information behandles strengt fortroligt.</p>
+  </card>
+</wml>

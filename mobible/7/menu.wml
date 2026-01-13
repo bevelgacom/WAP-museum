@@ -1,0 +1,32 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+  <template>
+    <do type="prev" label="Vissza">
+      <prev/>
+    </do>
+  </template>
+
+  <card id="top" title="Fõmenü">
+    <p align="center">
+      <a href="options.wml">Kijelzésállítás </a><br/>
+      <a href="psalm.wml">Mai Zsoltár</a><br/>
+      <a href="#browse">Bibliaolvasás</a><br/>
+      <a href="search.wml">Keresés a Bibliában</a><br/>
+      <a href="lordpray.wml">Mintaima</a><br/>
+      <a href="guest.wml">Vendégkönyv</a><br/>
+      <a href="credits.wml">Készítõk</a>
+    </p>
+  </card>
+
+  <card id="browse" title="Böngészés">
+    <p align="center">
+      <a href="ot.wml">Ószövetség</a><br/>
+      <a href="nt.wml">Újszövetség</a>
+    </p>
+  </card>
+
+</wml>
+
+

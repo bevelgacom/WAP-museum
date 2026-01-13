@@ -1,0 +1,22 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Optionen">
+    <do type="prev" label="Zurück">
+      <prev/>
+    </do>
+    <p>
+      <anchor>Ein Vers pro Seite
+        <go href="menu.wml">
+          <setvar name="mode" value="1"/>
+        </go>
+      </anchor><br/>
+      <anchor>Mehrere Verse pro Seite
+        <go href="menu.wml">
+          <setvar name="mode" value="x"/>
+        </go>
+      </anchor><br/>Das Laden mehrerer Verse pro Seite dauert ein wenig länger,
+          belohnt aber mit einem natürlicheren Lesestil.
+    </p>
+  </card>
+</wml>

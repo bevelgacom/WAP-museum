@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+	"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml><card title="P&#xe4;iv&#xe4;n Psalmi"><do type="prev" label="Edellinen"><prev/></do><p>P&#xe4;iv&#xe4;n psalmi on&nbsp; <anchor><go href="/cgi-bin/view"><postfield name="book" value="Psa"/><postfield name="chap" value="80"/><postfield name="vrs1" value="1"/><postfield name="vrs2" value=""/><postfield name="lang" value="8"/></go>Psalmi 80</anchor></p></card></wml>

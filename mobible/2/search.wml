@@ -1,0 +1,30 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Pesquisar">
+    <do type="prev" label="Anterior">
+      <prev/>
+    </do>
+    <p>Introduza aqui as palavras que deseja pesquisar:
+      <input format="*m" name="find"/>
+    </p>
+    <p>Pesquisar no&nbsp;
+      <select name="test" value="old">
+        <option value="old">Antigo Testamento</option>
+        <option value="new">Novo Testamento</option>
+      </select>
+    </p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/mbwf" method="get">
+          <postfield name="find" value="$find"/>
+          <postfield name="pref" value="0"/>
+          <postfield name="lang" value="$lang"/>
+	  <postfield name="test" value="$test"/>
+        </go>
+        Pesquisar
+      </anchor>
+    </p>
+  </card>
+</wml>
+

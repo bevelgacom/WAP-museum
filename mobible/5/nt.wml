@@ -1,0 +1,52 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Ny Testamente">
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+    <p>
+    Bog:
+    <select name="book" value="Mat">
+      <option value="Mat">Matthæus</option>
+      <option value="Mar">Markus</option>
+      <option value="Luk">Lukas</option>
+      <option value="Joh">Johannes</option>
+      <option value="Act">Apostelenes gerninger</option>
+      <option value="Rom">Romerne</option>
+      <option value="1Co">1 Korinterne</option>
+      <option value="2Co">2 Korinterne</option>
+      <option value="Gal">Galaterne</option>
+      <option value="Eph">Efeserne</option>
+      <option value="Php">Filipperne</option>
+      <option value="Col">Kolossensern</option>
+      <option value="1Th">1 Tessalonikerne</option>
+      <option value="2Th">2 Tessalonikerne</option>
+      <option value="1Ti">1 Timoteus</option>
+      <option value="2Ti">2 Timoteus</option>
+      <option value="Tit">Titus</option>
+      <option value="Phm">Filemon</option>
+      <option value="Heb">Hebræerne</option>
+      <option value="Jam">Jakob</option>
+      <option value="1Pe">1 Peter</option>
+      <option value="2Pe">2 Peter</option>
+      <option value="1Jo">1 Johannes</option>
+      <option value="2Jo">2 Johannes</option>
+      <option value="3Jo">3 Johannes</option>
+      <option value="Jde">Judas</option>
+      <option value="Rev">Aabenbaringen</option>
+    </select><br/>
+    Kapitel: <input format="*N" name="chap" size="3" title="Kapitel" value="1"/><br/>
+    Vers: <input format="*N" name="vers" size="3" title="Vers" value="1"/><br/>
+    <anchor>
+      <go href="/cgi-bin/mbwv" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vers" value="$vers"/>
+        <postfield name="mode" value="$mode"/>
+        <postfield name="lang" value="$lang"/>
+      </go>Fortsæt
+    </anchor>
+  </p>
+  </card>
+</wml>

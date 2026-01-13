@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Keresés">
+    <do type="prev" label="Vissza">
+      <prev/>
+    </do>
+    <p>Keresendõ szöveg:
+      <input format="*m" name="find"/>
+    </p>
+    <p>Keresés&nbsp;
+      <select name="test" value="all">
+        <option value="old">Ószövetség</option>
+        <option value="new">Újszövetség</option>
+        <option value="all">Ó és Újszövetség</option>
+      </select>
+    </p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/find" method="get">
+          <postfield name="find" value="$find"/>
+          <postfield name="pref" value="0"/>
+          <postfield name="lang" value="7"/>
+	      <postfield name="test" value="$test"/>
+        </go>
+        Keresés indul
+      </anchor>
+    </p>
+  </card>
+</wml>

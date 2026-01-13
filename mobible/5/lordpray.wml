@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Fader vor">
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+    <p>Fader vor! Du, som er i Himlen. Helliget vorde Dit navn. 
+       Komme Dit rige. Ske Din vilje, som i Himlen så og på jorden.
+       Giv os i dag vort daglige brød. Og forlad os vor skyld, 
+       som og vi forlader vore skyldnere. Og led os ikke i fristelse,
+       men frels os fra det onde. Thi Dit er riget og magten og 
+       æren i evighed. Amen.</p>
+  </card>
+</wml>

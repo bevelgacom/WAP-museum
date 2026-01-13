@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Zoeken">
+    <do type="prev" label="Terug">
+      <prev/>
+    </do>
+    <p>Vul hier uw zoektekst in:
+      <input format="*m" name="find"/>
+    </p>
+    <p>Zoeken in het&nbsp;
+      <select name="test" value="all">
+        <option value="old">Oude Testament</option>
+        <option value="new">Nieuwe Testament</option>
+        <option value="all">Oude en Nieuwe Testament</option>
+      </select>
+    </p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/find" method="get">
+          <postfield name="find" value="$find"/>
+          <postfield name="pref" value="0"/>
+          <postfield name="lang" value="6"/>
+	      <postfield name="test" value="$test"/>
+        </go>
+        Zoek
+      </anchor>
+    </p>
+  </card>
+</wml>

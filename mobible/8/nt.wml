@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Uusi Testamentti">
+    <do type="prev" label="Edellinen">
+      <prev/>
+    </do>
+    <p>
+    Kirja:
+    <select name="book" value="Mat">
+      <option value="Mat">Evankeliumi Matteuksen mukaan</option>
+      <option value="Mar">Evankeliumi Markuksen mukaan</option>
+      <option value="Luk">Evankeliumi Luukkaan mukaan</option>
+      <option value="Joh">Evankeliumi Johanneksen mukaan</option>
+      <option value="Act">Apostolien teot</option>
+      <option value="Rom">Kirje roomalaisille</option>
+      <option value="1Co">1. kirje korinttilaisille</option>
+      <option value="2Co">2. kirje korinttilaisille</option>
+      <option value="Gal">Kirje galatalaisille</option>
+      <option value="Eph">Kirje efesolaisille</option>
+      <option value="Php">Kirje filippiläisille</option>
+      <option value="Col">Kirje kolossalaisille</option>
+      <option value="1Th">1. kirje tessalonikalaisille</option>
+      <option value="2Th">2. kirje tessalonikalaisille</option>
+      <option value="1Ti">1. kirje Timoteukselle</option>
+      <option value="2Ti">2. kirje Timoteukselle</option>
+      <option value="Tit">Kirje Titukselle</option>
+      <option value="Phm">Kirje Filemonille</option>
+      <option value="Heb">Kirje heprealaisille</option>
+      <option value="Jam">Jaakobin kirje</option>
+      <option value="1Pe">1. Pietarin kirje</option>
+      <option value="2Pe">2. Pietarin kirje</option>
+      <option value="1Jo">1. Johanneksen kirje</option>
+      <option value="2Jo">2. Johanneksen kirje</option>
+      <option value="3Jo">3. Johanneksen kirje</option>
+      <option value="Jde">Juudaksen kirje</option>
+      <option value="Rev">Johanneksen ilmestys</option>
+    </select><br/>
+    Luku: <input format="*N" name="chap" size="3" title="Luku" value="1"/><br/>
+    Jae: <input format="*N" name="vrs1" size="3" title="Jae" value="1"/> -
+      <input format="*N" name="vrs2" size="3" title="Jae" value=""/><br/>
+    <anchor>
+      <go href="/cgi-bin/view" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vrs1" value="$vrs1"/>
+        <postfield name="vrs2" value="$vrs2"/>
+        <postfield name="lang" value="8"/>
+      </go>Jatka
+    </anchor>
+  </p>
+  </card>
+</wml>

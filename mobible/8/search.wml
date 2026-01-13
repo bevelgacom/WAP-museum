@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Haku">
+    <do type="prev" label="Edellinen">
+      <prev/>
+    </do>
+    <p>Syötä hakusana tähän:
+      <input format="*m" name="find"/>
+    </p>
+    <p>Etsi&nbsp;
+      <select name="test" value="all">
+        <option value="old">Vanha Testamentti</option>
+        <option value="new">Uusi Testamentti</option>
+        <option value="all">Vanha &amp; Uusi Testamentti</option>
+      </select>
+    </p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/find" method="get">
+          <postfield name="find" value="$find"/>
+          <postfield name="pref" value="0"/>
+          <postfield name="lang" value="8"/>
+	      <postfield name="test" value="$test"/>
+        </go>
+        Käynnistä haku
+      </anchor>
+    </p>
+  </card>
+</wml>

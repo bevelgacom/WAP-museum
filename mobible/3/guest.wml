@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Gästebuch">
+    <do type="prev" label="Zurück">
+      <prev/>
+    </do>
+    <p>Danke für den Besuch von Mobible.org. Tragen Sie sich bitte ins Gästebuch mit
+      ihrer E-Mail Adresse ein:
+      <input format="*m" name="email"/>
+    </p>
+    <p>Möchten Sie über neue Entwicklungen informiert werden?
+    <select name="news" value="Y">
+      <option value="Y">Ja</option>
+      <option value="N">Nein</option>
+    </select></p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/visitor" method="get">
+          <postfield name="mail" value="$email"/>
+          <postfield name="news" value="$news"/>
+          <postfield name="lang" value="$lang"/>
+        </go>
+        Abschicken
+      </anchor></p>
+    <p>Hinweis: Ihre übermittelten Daten werden streng vertraulich behandelt.</p>
+  </card>
+</wml>

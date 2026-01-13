@@ -1,0 +1,52 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Novo Testamento">
+    <do type="prev" label="Anterior">
+      <prev/>
+    </do>
+    <p>
+    Livro:
+    <select name="book" value="Mat">
+      <option value="Mat">Mateus</option>
+      <option value="Mar">Marcos</option>
+      <option value="Luk">Lucas</option>
+      <option value="Joh">João</option>
+      <option value="Act">Atos</option>
+      <option value="Rom">Romanos</option>
+      <option value="1Co">1 Coríntios</option>
+      <option value="2Co">2 Coríntios</option>
+      <option value="Gal">Gálatas</option>
+      <option value="Eph">Efésios</option>
+      <option value="Php">Filipenses</option>
+      <option value="Col">Colossenses</option>
+      <option value="1Th">1 Tessalonicenses</option>
+      <option value="2Th">2 Tessalonicenses</option>
+      <option value="1Ti">1 Timóteo</option>
+      <option value="2Ti">2 Timóteo</option>
+      <option value="Tit">Tito</option>
+      <option value="Phm">Filemón</option>
+      <option value="Heb">Hebreus</option>
+      <option value="Jam">Tiago</option>
+      <option value="1Pe">1 Pedro</option>
+      <option value="2Pe">2 Pedro</option>
+      <option value="1Jo">1 João</option>
+      <option value="2Jo">2 João</option>
+      <option value="3Jo">3 João</option>
+      <option value="Jde">Judas</option>
+      <option value="Rev">Apocalipse</option>
+    </select><br/>
+    Capitulo: <input format="*N" name="chap" size="3" title="Capitulo" value="1"/><br/>
+    Verso: <input format="*N" name="vers" size="3" title="Verso" value="1"/><br/>
+    <anchor>
+      <go href="/cgi-bin/mbwv" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vers" value="$vers"/>
+        <postfield name="mode" value="$mode"/>
+        <postfield name="lang" value="$lang"/>
+      </go>Continuar
+    </anchor>
+  </p>
+  </card>
+</wml>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Neues Testament">
+    <do type="prev" label="Zurück">
+      <prev/>
+    </do>
+    <p>
+    Buch:
+    <select name="book" value="Mat">
+      <option value="Mat">Matthaeus</option>
+      <option value="Mar">Markus</option>
+      <option value="Luk">Lukas</option>
+      <option value="Joh">Johannes</option>
+      <option value="Act">Apostelgeschichte</option>
+      <option value="Rom">Roemers</option>
+      <option value="1Co">1 Korinther</option>
+      <option value="2Co">2 Korinther</option>
+      <option value="Gal">Galater</option>
+      <option value="Eph">Epheser</option>
+      <option value="Php">Philipper</option>
+      <option value="Col">Kolosser</option>
+      <option value="1Th">1 Thessalonicher</option>
+      <option value="2Th">2 Thessalonicher</option>
+      <option value="1Ti">1 Timotheus</option>
+      <option value="2Ti">2 Timotheus</option>
+      <option value="Tit">Titus</option>
+      <option value="Phm">Philemon</option>
+      <option value="Heb">Hebraeer</option>
+      <option value="Jam">Jakobus</option>
+      <option value="1Pe">1 Petrus</option>
+      <option value="2Pe">2 Petrus</option>
+      <option value="1Jo">1 Johannes</option>
+      <option value="2Jo">2 Johannes</option>
+      <option value="3Jo">3 Johannes</option>
+      <option value="Jde">Judas</option>
+      <option value="Rev">Offenbarung</option>
+    </select><br/>
+    Kapitel: <input format="*N" name="chap" size="3" title="Kapitel" value="1"/><br/>
+    Vers: <input format="*N" name="vers" size="3" title="Vers" value="1"/><br/>
+    <anchor>
+      <go href="/cgi-bin/mbwv" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vers" value="$vers"/>
+        <postfield name="mode" value="$mode"/>
+        <postfield name="lang" value="$lang"/>
+      </go>Weiter
+    </anchor>
+  </p>
+  </card>
+</wml>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Ószövetség">
+    <do type="prev" label="Vissza">
+      <prev/>
+    </do>
+    <p>
+    Könyv:
+    <select name="book" value="Gen">
+      <option value="Gen">1 Mózes</option>
+      <option value="Exo">2 Mózes</option>
+      <option value="Lev">3 Mózes</option>
+      <option value="Num">4 Mózes</option>
+      <option value="Deu">5 Mózes</option>
+      <option value="Jos">Józsué</option>
+      <option value="Jdg">Bírák</option>
+      <option value="Rut">Ruth</option>
+      <option value="1Sa">1 Sámuel</option>
+      <option value="2Sa">2 Sámuel</option>
+      <option value="1Ki">1 Királyok</option>
+      <option value="2Ki">2 Királyok</option>
+      <option value="1Ch">1 Krónikák</option>
+      <option value="2Ch">2 Krónikák</option>
+      <option value="Ezr">Ezsdrás</option>
+      <option value="Neh">Nehémiás</option>
+      <option value="Est">Eszter</option>
+      <option value="Job">Jób</option>
+      <option value="Psa">Zsoltárok</option>
+      <option value="Pro">Példabeszédek</option>
+      <option value="Ecc">Prédikátor</option>
+      <option value="Son">Énekek Éneke</option>
+      <option value="Isa">Ésaiás</option>
+      <option value="Jer">Jeremiás</option>
+      <option value="Lam">Siralmak</option>
+      <option value="Eze">Ezékiel</option>
+      <option value="Dan">Dániel</option>
+      <option value="Hos">Hóseás</option>
+      <option value="Joe">Jóel</option>
+      <option value="Amo">Ámós</option>
+      <option value="Oba">Abdiás</option>
+      <option value="Jon">Jónás</option>
+      <option value="Mic">Mikeás</option>
+      <option value="Nah">Náhum</option>
+      <option value="Hab">Habakuk</option>
+      <option value="Zep">Sofóniás</option>
+      <option value="Hag">Aggeus</option>
+      <option value="Zec">Zakariás</option>
+      <option value="Mal">Malakiás</option>
+    </select><br/>
+    Fejezet: <input format="*N" name="chap" size="3" title="Fejezet" value="1"/><br/>
+    Vers: <input format="*N" name="vrs1" size="3" title="Vers" value="1"/> -
+      <input format="*N" name="vrs2" size="3" title="Vers" value=""/><br/>
+    <anchor>
+      <go href="/cgi-bin/view" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vrs1" value="$vrs1"/>
+        <postfield name="vrs2" value="$vrs2"/>
+        <postfield name="lang" value="7"/>
+      </go>Tovább
+    </anchor>
+    </p>
+  </card>
+</wml>

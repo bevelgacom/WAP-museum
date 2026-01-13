@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Gastenboek">
+    <do type="prev" label="Terug">
+      <prev/>
+    </do>
+    <p>Hartelijk dank voor je bezoek aan Mobible.org. Teken het 
+      gastenboek door hier je email adres in te vullen:
+      <input format="*m" name="email"/>
+    </p>
+    <p>Wil je graag op de hoogte worden gehouden van nieuwe ontwikkelingen?
+    <select name="news" value="Y">
+      <option value="Y">Ja</option>
+      <option value="N">Nee</option>
+    </select></p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/visitor" method="get">
+          <postfield name="mail" value="$email"/>
+          <postfield name="news" value="$news"/>
+          <postfield name="lang" value="$lang"/>
+        </go>
+        Verdergaan
+      </anchor></p>
+    <p>Alle ingevoerde informatie blijft  strict vertrouwelijk.</p>
+  </card>
+</wml>

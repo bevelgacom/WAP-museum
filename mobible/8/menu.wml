@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+  <template>
+    <do type="prev" label="Edellinen">
+      <prev/>
+    </do>
+  </template>
+
+  <card id="top" title="Päävalikko">
+    <p align="center">
+      <a href="options.wml">Näyttöasetukset</a><br/>
+      <a href="psalm.wml">Päivän Psalmi</a><br/>
+      <a href="#browse">Lue Raamattua</a><br/>
+      <a href="search.wml">Etsi Raamatusta</a><br/>
+      <a href="lordpray.wml">Herran Rukous</a><br/>
+      <a href="guest.wml">Vieraskirja</a><br/>
+      <a href="credits.wml">Kiitokset</a>
+    </p>
+  </card>
+
+  <card id="browse" title="Selaa">
+    <p align="center">
+      <a href="ot.wml">Vanha Testamentti</a><br/>
+      <a href="nt.wml">Uusi Testamentti</a>
+    </p>
+  </card>
+
+</wml>
+
+

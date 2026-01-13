@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+	"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml><card title="Heutiger Psalm"><do type="prev" label="Zur&#xfc;ck"><prev/></do><p>Heutiger Psalm ist&nbsp; <anchor><go href="/cgi-bin/view"><postfield name="book" value="Psa"/><postfield name="chap" value="67"/><postfield name="vrs1" value="1"/><postfield name="vrs2" value=""/><postfield name="lang" value="3"/></go>Psalm 67</anchor></p></card></wml>

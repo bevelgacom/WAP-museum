@@ -1,0 +1,17 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Le Notre Père">
+    <do type="prev" label="Précédent">
+      <prev/>
+    </do>
+    <p>Notre Père qui es aux cieux! Que ton nom soit sanctifié; 
+       que ton règne vienne; que ta volonté soit faite sur la terre comme au ciel.
+       Donne-nous aujourd'hui notre pain quotidien; pardonne-nous nos offenses,
+       comme nous aussi nous pardonnons à ceux qui nous ont offensés;
+       ne nous induis pas en tentation, mais délivre-nous du malin. 
+       Car c'est à toi qu'appartiennent, dans tous les siècles, le règne, 
+       la puissance et la gloire. Amen!
+    </p>
+  </card>
+</wml>

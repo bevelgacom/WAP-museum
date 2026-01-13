@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Nieuwe Testament">
+    <do type="prev" label="Terug">
+      <prev/>
+    </do>
+    <p>
+    Boek:
+    <select name="book" value="Mat">
+      <option value="Mat">Mattheüs</option>
+      <option value="Mar">Markus</option>
+      <option value="Luk">Lukas</option>
+      <option value="Joh">Johannes</option>
+      <option value="Act">Handelingen</option>
+      <option value="Rom">Romeinen</option>
+      <option value="1Co">1 Corinthiërs</option>
+      <option value="2Co">2 Corinthiërs</option>
+      <option value="Gal">Galaten</option>
+      <option value="Eph">Efeziërs</option>
+      <option value="Php">Filippenzen</option>
+      <option value="Col">Colossenzen</option>
+      <option value="1Th">1 Thessalonicenzen</option>
+      <option value="2Th">2 Thessalonicenzen</option>
+      <option value="1Ti">1 Timotheüs</option>
+      <option value="2Ti">2 Timotheüs</option>
+      <option value="Tit">Titus</option>
+      <option value="Phm">Filémon</option>
+      <option value="Heb">Hebreeën</option>
+      <option value="Jam">Jakobus</option>
+      <option value="1Pe">1 Petrus</option>
+      <option value="2Pe">2 Petrus</option>
+      <option value="1Jo">1 Johannes</option>
+      <option value="2Jo">2 Johannes</option>
+      <option value="3Jo">3 Johannes</option>
+      <option value="Jde">Judas</option>
+      <option value="Rev">Openbaring</option>
+    </select><br/>
+    Hoofdstuk: <input format="*N" name="chap" size="3" title="Hoofdstuk" value="1"/><br/>
+    Vers: <input format="*N" name="vrs1" size="3" title="Vers" value="1"/> -
+      <input format="*N" name="vrs2" size="3" title="Vers" value=""/><br/>
+    <anchor>
+      <go href="/cgi-bin/view" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vrs1" value="$vrs1"/>
+        <postfield name="vrs2" value="$vrs2"/>
+        <postfield name="lang" value="6"/>
+      </go>Verdergaan
+    </anchor>
+  </p>
+  </card>
+</wml>

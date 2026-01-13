@@ -1,0 +1,23 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Opciones">
+    <do type="prev" label="Anterior">
+      <prev/>
+    </do>
+    <p>
+      <anchor>Un verso página
+        <go href="menu.wml">
+          <setvar name="mode" value="1"/>
+        </go>
+      </anchor><br/>
+      <anchor>Múltiplos versos por página
+        <go href="menu.wml">
+          <setvar name="mode" value="x"/>
+        </go>
+      </anchor><br/>La muestra de múltiplos versos tomará más tiempo en
+        cargar cada página, pero el estilo de lectura es mas nátural y
+        recompensante.
+    </p>
+  </card>
+</wml>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Vanha Testamentti">
+    <do type="prev" label="Edellinen">
+      <prev/>
+    </do>
+    <p>
+    Kirja:
+    <select name="book" value="Gen">
+      <option value="Gen">1. Mooseksen kirja</option>
+      <option value="Exo">2. Mooseksen kirja</option>
+      <option value="Lev">3. Mooseksen kirja</option>
+      <option value="Num">4. Mooseksen kirja</option>
+      <option value="Deu">5. Mooseksen kirja</option>
+      <option value="Jos">Joosuan kirja</option>
+      <option value="Jdg">Tuomarien kirja</option>
+      <option value="Rut">Ruutin kirja</option>
+      <option value="1Sa">1. Samuelin kirja</option>
+      <option value="2Sa">2. Samuelin kirja</option>
+      <option value="1Ki">1. kuninkaiden kirja</option>
+      <option value="2Ki">2. kuninkaiden kirja</option>
+      <option value="1Ch">1. aikakirja</option>
+      <option value="2Ch">2. aikakirja</option>
+      <option value="Ezr">Esran kirja</option>
+      <option value="Neh">Nehemian kirja</option>
+      <option value="Est">Esterin kirja</option>
+      <option value="Job">Jobin kirja</option>
+      <option value="Psa">Psalmien kirja</option>
+      <option value="Pro">Sananlaskujen kirja</option>
+      <option value="Ecc">Saarnaajan kirja</option>
+      <option value="Son">Laulujen laulu</option>
+      <option value="Isa">Jesajan kirja</option>
+      <option value="Jer">Jeremian kirja</option>
+      <option value="Lam">Valitusvirret</option>
+      <option value="Eze">Hesekielin kirja</option>
+      <option value="Dan">Danielin kirja</option>
+      <option value="Hos">Hoosean kirja</option>
+      <option value="Joe">Joelin kirja</option>
+      <option value="Amo">Aamoksen kirja</option>
+      <option value="Oba">Obadjan kirja</option>
+      <option value="Jon">Joonan kirja</option>
+      <option value="Mic">Miikan kirja</option>
+      <option value="Nah">Nahumin kirja</option>
+      <option value="Hab">Habakukin kirja</option>
+      <option value="Zep">Sefanjan kirja</option>
+      <option value="Hag">Haggain kirja</option>
+      <option value="Zec">Sakarjan kirja</option>
+      <option value="Mal">Malakian kirja</option>
+    </select><br/>
+    Luku: <input format="*N" name="chap" size="3" title="Luku" value="1"/><br/>
+    Jae: <input format="*N" name="vrs1" size="3" title="Jae" value="1"/> -
+      <input format="*N" name="vrs2" size="3" title="Jae" value=""/><br/>
+    <anchor>
+      <go href="/cgi-bin/view" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vrs1" value="$vrs1"/>
+        <postfield name="vrs2" value="$vrs2"/>
+        <postfield name="lang" value="8"/>
+      </go>Jatka
+    </anchor>
+    </p>
+  </card>
+</wml>

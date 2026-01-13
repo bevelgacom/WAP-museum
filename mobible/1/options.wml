@@ -1,0 +1,23 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Options">
+    <do type="prev" label="Précédent">
+      <prev/>
+    </do>
+    <p>
+      <anchor>Un verset par page
+        <go href="menu.wml">
+          <setvar name="mode" value="1"/>
+        </go>
+      </anchor><br/>
+      <anchor>Plusieurs versets par page
+        <go href="menu.wml">
+          <setvar name="mode" value="x"/>
+        </go>
+      </anchor><br/>Afficher plusieurs versets prendra plus de temps 
+        pour charger chaque page mais restituera une lecture plus 
+        plaisante et naturelle.
+    </p>
+  </card>
+</wml>

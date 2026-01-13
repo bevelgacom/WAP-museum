@@ -1,0 +1,23 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Muligheder">
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+    <p>
+      <anchor>Et vers per side
+        <go href="menu.wml">
+          <setvar name="mode" value="1"/>
+        </go>
+      </anchor><br/>
+      <anchor>Flere vers per side
+        <go href="menu.wml">
+          <setvar name="mode" value="x"/>
+        </go>
+      </anchor><br/>Ved visning af flere vers vil det tage en smule
+        længere at hente hver side, men det giver også en mere 
+        naturlig og tilfredsstillende læsning.
+    </p>
+  </card>
+</wml>

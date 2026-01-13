@@ -1,0 +1,4 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml><card title="Today&apos;s Psalm"><do type="prev" label="Back"><prev/></do><p>Today&apos;s psalm is&nbsp; <anchor><go href="/cgi-bin/mbwv"><postfield name="book" value="Psa"/><postfield name="chap" value="92"/><postfield name="vers" value="1"/><postfield name="mode" value="$mode"/><postfield name="lang" value="$lang"/></go>Psalm 92</anchor></p></card></wml>

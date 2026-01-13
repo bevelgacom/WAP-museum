@@ -1,0 +1,4 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml><card title="Salmo do Dia"><do type="prev" label="Anterior"><prev/></do><p>O salmo de hoje e o&nbsp; <anchor><go href="/cgi-bin/mbwv"><postfield name="book" value="Psa"/><postfield name="chap" value="101"/><postfield name="vers" value="1"/><postfield name="mode" value="$mode"/><postfield name="lang" value="$lang"/></go>salmo 101</anchor></p></card></wml>

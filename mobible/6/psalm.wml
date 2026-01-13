@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+	"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml><card title="Psalm van de dag"><do type="prev" label="Terug"><prev/></do><p>Het psalm van de dag is&nbsp; <anchor><go href="/cgi-bin/view"><postfield name="book" value="Psa"/><postfield name="chap" value="80"/><postfield name="vrs1" value="1"/><postfield name="vrs2" value=""/><postfield name="lang" value="6"/></go>Psalm 80</anchor></p></card></wml>

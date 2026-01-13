@@ -1,0 +1,32 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+  <template>
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+  </template>
+
+  <card id="top" title="Hovedmenu">
+    <p align="center">
+      <a href="options.wml">Visningsmuligheder</a><br/>
+      <a href="psalm.wml">Dagens salme</a><br/>
+      <a href="#browse">Læs i Bibelen</a><br/>
+      <a href="search.wml">Søg i Bibelen</a><br/>
+      <a href="lordpray.wml">Fader vor</a><br/>
+      <a href="guest.wml">Gæstebog</a><br/>
+      <a href="credits.wml">Tak til</a>
+    </p>
+  </card>
+
+  <card id="browse" title="Gennemse">
+    <p align="center">
+      <a href="ot.wml">Det Gamle Testamente</a><br/>
+      <a href="nt.wml">Det Ny Testamente</a>
+    </p>
+  </card>
+
+</wml>
+
+

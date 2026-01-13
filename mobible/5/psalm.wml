@@ -1,0 +1,4 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml><card title="Dagens Salme"><do type="prev" label="Tilbage"><prev/></do><p>Dagens salme er&nbsp; <anchor><go href="/cgi-bin/mbwv"><postfield name="book" value="Psa"/><postfield name="chap" value="61"/><postfield name="vers" value="1"/><postfield name="mode" value="$mode"/><postfield name="lang" value="$lang"/></go>Salme 61</anchor></p></card></wml>

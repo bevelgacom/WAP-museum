@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="search" title="Le Livre d&apos;Or">
+    <do type="prev" label="Précédent">
+      <prev/>
+    </do>
+    <p>Merci d'avoir visité Mobible.org. Veuillez signer le Livre d'Or en entrant
+      votre adresse email ici:
+      <input format="*m" name="email"/>
+    </p>
+    <p>Voudriez vous être tenu au courant des nouveaux dévelopements?
+    <select name="news" value="Y">
+      <option value="Y">Oui</option>
+      <option value="N">Non</option>
+    </select></p>
+    <p>
+      <anchor>
+        <go href="/cgi-bin/visitor" method="get">
+          <postfield name="mail" value="$email"/>
+          <postfield name="news" value="$news"/>
+          <postfield name="lang" value="$lang"/>
+        </go>
+        Envoyer
+      </anchor></p>
+    <p>Veuillez noter que toute information soumise est gardée strictement confidentielle.</p>
+  </card>
+</wml>

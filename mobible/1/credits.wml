@@ -1,0 +1,18 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Crédits">
+    <do type="accept" label="OK">
+      <go href="menu.wml"/>
+    </do>
+    <do type="prev" label="Précédent">
+      <prev/>
+    </do>
+    <p>Design et implémentation WAP par David De Silva.</p>
+    <p>Design du site internet par Bob Guinn, David De Silva.</p>
+    <p>Traduction par Dominique Poudret, João Gomes, Peter Croy,
+      Valentina Pantin, Morten Gudbjerg Karlsen, Robert Van Buuringen.</p>
+    <p>&#xa9;2001-2004 David De Silva &lt;david@desilva.org&gt;</p>
+  </card>
+</wml>
+

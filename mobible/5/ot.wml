@@ -1,0 +1,64 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Gamle Testamente">
+    <do type="prev" label="Tilbage">
+      <prev/>
+    </do>
+    <p>
+    Bog:
+    <select name="book" value="Gen">
+      <option value="Gen">1 Mosebog</option>
+      <option value="Exo">2 Mosebog</option>
+      <option value="Lev">3 Mosebog</option>
+      <option value="Num">4 Mosebog</option>
+      <option value="Deu">5 Mosebog</option>
+      <option value="Jos">Josua</option>
+      <option value="Jdg">Dommer</option>
+      <option value="Rut">Rut</option>
+      <option value="1Sa">1 Samuel</option>
+      <option value="2Sa">2 Samuel</option>
+      <option value="1Ki">Første Kongebog</option>
+      <option value="2Ki">Anden Kongebog</option>
+      <option value="1Ch">Første Krønikebog</option>
+      <option value="2Ch">Anden Krønikebog</option>
+      <option value="Ezr">Ezra</option>
+      <option value="Neh">Nehemias</option>
+      <option value="Est">Ester</option>
+      <option value="Job">Job</option>
+      <option value="Psa">Salme</option>
+      <option value="Pro">Ordsprogene</option>
+      <option value="Ecc">Prædikeren</option>
+      <option value="Son">Højsangen</option>
+      <option value="Isa">Esajas</option>
+      <option value="Jer">Jeremias</option>
+      <option value="Lam">Klagesangene</option>
+      <option value="Eze">Ezekiel</option>
+      <option value="Dan">Daniel</option>
+      <option value="Hos">Hoseas</option>
+      <option value="Joe">Joel</option>
+      <option value="Amo">Amos</option>
+      <option value="Oba">Obadias</option>
+      <option value="Jon">Jonas</option>
+      <option value="Mic">Mikas</option>
+      <option value="Nah">Nahum</option>
+      <option value="Hab">Habakkuk</option>
+      <option value="Zep">Zefanias</option>
+      <option value="Hag">Haggaj</option>
+      <option value="Zec">Zakarias</option>
+      <option value="Mal">Malakias</option>
+    </select><br/>
+    Kapitel: <input format="*N" name="chap" size="3" title="Kapitel" value="1"/><br/>
+    Vers: <input format="*N" name="vers" size="3" title="Vers" value="1"/><br/>
+    <anchor>
+      <go href="/cgi-bin/mbwv" method="get">
+        <postfield name="book" value="$book"/>
+        <postfield name="chap" value="$chap"/>
+        <postfield name="vers" value="$vers"/>
+        <postfield name="mode" value="$mode"/>
+        <postfield name="lang" value="$lang"/>
+      </go>Fortsæt
+    </anchor>
+    </p>
+  </card>
+</wml>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card title="Das Vaterunser">
+    <do type="prev" label="Zurück">
+      <prev/>
+    </do>
+    <p>Unser Vater in dem Himmel! Dein Name werde geheiligt.Dein Reich komme.
+       Dein Wille geschehe auf Erden wie im Himmel. Unser täglich Brot gib uns heute.
+       Und vergib uns unsere Schuld, wie wir unseren Schuldigern vergeben.
+       Und führe uns nicht in Versuchung, sondern erlöse uns von dem Übel.
+       Denn dein ist das Reich und die Kraft und die Herrlichkeit in Ewigkeit. Amen.
+    </p>
+  </card>
+</wml>
