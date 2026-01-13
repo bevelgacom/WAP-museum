@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='search' title='WAP Search Engines'>
+	<p><big>
+
+		<b>Axel's WAP Links: Search Engines</b>
+
+	</big></p><p>
+
+		<a href='http://wapmap.com/'>wapmap.com</a><br/>
+
+		<a href='http://wap.altavista.com/'>AltaVista</a> 
+		  <a href='http://wml.raging.com/'>(AV Raging Search)</a><br/>
+
+		<a href='http://wap.web.de/'>Web.de</a><br/>
+
+		<a href='http://wap.fast.no/wml/'>FAST WAP
+			Search</a><br/>
+
+	</p><p><small>
+	Last update: 
+	Tuesday, 06-Feb-2001 20:49:24 CET<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

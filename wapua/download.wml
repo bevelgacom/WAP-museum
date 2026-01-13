@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="wml.css" type="text/css" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='About:'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+
+<card id='download' title='wApua Download'><p>
+
+<big><u>Downloading wApua</u></big>
+
+</p><p><small>
+
+<table columns='4'><tr>
+	<td><b>Version</b></td>
+	<td>Size</td>
+	<td>Format</td>
+</tr><tr>
+	<td><b>Latest</b></td>
+	<td> 39K</td>
+	<td><a href='wApua-latest.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.06.2</td>
+	<td> 39K</td>
+	<td><a href='wApua-0.06.4.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.06.2</td>
+	<td> 38K</td>
+	<td><a href='wApua-0.06.3.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.06.2</td>
+	<td> 38K</td>
+	<td><a href='wApua-0.06.2.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.06.1</td>
+	<td> 37K</td>
+	<td><a href='wApua-0.06.1.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.06</td>
+	<td> 37K</td>
+	<td><a href='wApua-0.06.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.05.1</td>
+	<td> 35K</td>
+	<td><a href='wApua-0.05.1.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.05</td>
+	<td> 34K</td>
+	<td><a href='wApua-0.05.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.04</td>
+	<td> 27K</td>
+	<td><a href='wApua-0.04.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.03</td>
+	<td> 22K</td>
+	<td><a href='wApua-0.03.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.02</td>
+	<td> 20K</td>
+	<td><a href='wApua-0.02.tar.gz'
+	    >tar.gz</a></td>
+</tr><tr>
+	<td>0.01</td>
+	<td> 19K</td>
+	<td><a href='wApua-0.01.tar.gz'
+	    >tar.gz</a></td>
+</tr></table>
+
+</small></p></card></wml>

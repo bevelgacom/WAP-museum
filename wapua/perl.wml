@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="wml.css" type="text/css" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='About:'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+
+<card id='perl' title='wApua: Perl'><p>
+
+<big><u>wApua and Perl</u></big>
+
+</p><p>
+
+wApua requires the following Perl modules, which are not included
+in the wApua distribution:<br/><small>
++ LWP::UserAgent (5.43 and above should work, earlier versions may
+  work, too.)<br/>
++ URI<br/>
++ HTML::TokeParser (2.99_06 or newer)<br/>
++ perl/Tk 800 (800.012 and above should work, earlier versions may
+  work, too. perl/Tk 400 does not work)
+</small>
+
+</p></card><card id='name' title='About the name wApua'><p>
+
+<big><u>The Name of the Game: wApua</u></big>
+
+</p><p>
+
+The name "wApua" has two meanings:
+
+</p><p>
+
+<u>WAP UA</u> stands for <u>WAP</u> <u>U</u>ser<u>A</u>gent, although
+- at the moment - it's just an WML browser fetching pages by HTTP.
+
+</p><p>
+
+<u>Apua</u> is Finnish and means 'Help' and this browser initially was
+and probably still is nothing else but some help for debugging WML
+pages on the web...
+
+</p></card></wml>

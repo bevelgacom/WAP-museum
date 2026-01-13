@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='wetter' title='Wetter+Bus+Bahn'>
+	<p><big>
+
+		<b>Axel's WAP Links: Wetter, Bus und Bahn</b>
+
+	</big></p><p>
+
+		Wetter: 
+		<a href='http://wap.wetteronline.de/wap/city?de10708'
+			>SB</a>
+		<a href='http://wap.wetteronline.de/wap/city?de10620'
+			>WO</a>
+		<a href='http://wap.wetteronline.de/wap/city?de10633'
+			>MZ</a>
+		<a href='http://wap.wetteronline.de/wap/city?de10614'
+			>KL</a>
+		<a href='http://wap.wetteronline.de/wap/city?de10730'
+			>HN</a>
+		<a href='http://wap.wetteronline.de/wap/city?de10772'
+			>PA</a>
+		<a href='http://wap.wetteronline.de/wap/city?de09701'
+			>N.-Schw.</a>
+		<a href='http://wap.wetteronline.de/wap/city?de09801'
+			>S.-Schw.</a>
+		<a href='http://wap.wetteronline.de/wap/land?L=de__00'
+			>Dtl. A-Z</a><br/>
+
+		Bus:
+		<a href='/~peterpan/buswapper.cgi?v=Mensa&n=Dudo&z=&d=&faopt1=U&faopt3=S&faopt2=A&tr=v&ao=Suchen&ppf=30s&pzv=1m&pzn=2m&pp1=3m%2C5m&ssu=67&pmu=4&pgv=4&ppg=2m&pme=4&pmp=75'>Mensa -&gt; Dudo, jetzt</a>
+		<a href='"http://fahrtfinder.saarbahn.de:8000/cgi-bin/fndroute?v=Dudo&n=Mensa&z=&d=&faopt1=U&faopt3=S&faopt2=A&tr=v&ao=Suchen&ppf=30s&pzv=1m&pzn=2m&pp1=3m%2C5m&ssu=67&pmu=4&pgv=4&ppg=2m&pme=4&pmp=75'>Dudo -&gt; Mensa, jetzt</a>
+		<a href='http://fahrtfinder.saarbahn.de:8000/cgi-bin/fndroute?v=mensa&n=dudo&z=22%3A00-05%3A00&d=&tr=v&ao=Suchen'>Mensa -&gt; Dudo, letzter</a><br/>
+
+		Bahn: <a href='/~peterpan/bahnhofwapper.cgi'
+		      >Verspaetungen am Saarbruecker Hbf</a><br/>
+
+
+	</p><p><small>
+	Last update: 
+	Wednesday, 03-Apr-2002 21:56:33 CEST<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

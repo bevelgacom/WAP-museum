@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="wml.css" type="text/css" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+                     "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+
+<wml>
+
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='About:'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+
+<card id='index' title='About wApua'>
+	<do name='index' type='index' label='About:'>
+		<noop/>
+	</do>
+<p>
+
+<img src='images/wApua.wbmp' width='79' height='25' alt='wApua'/>
+
+</p><p><small>
+
+wApua is a web browser for WML (version 1.1 and 1.2) pages. It
+is primarily designed for debugging WML pages in comparsion to only
+browsing the WML pages on the web. Features: WBMP support, cache,
+simple HTTP authentication, tables, timer support, etc.
+
+</small></p><p>
+
+<a href='perl.wml#perl'>About wApua and Perl</a><br/>
+<a href='perl.wml#name'>About the name "wApua"</a><br/>
+<a href='author.wml#author'>Author of wApua</a><br/>
+<a href='author.wml#license'>Copyright -eh- left</a><br/>
+<a href='download.wml'>Download wApua</a><br/>
+<a href='../Links/index.wml'>WAP links</a><br/>
+
+</p><p><small>
+
+There also exists a 
+<a href='http://fsinfo.cs.uni-sb.de/~abe/wApua/index.html'
+	    >HTML page about wApua</a>.
+
+</small></p><p><small>
+
+Requests since 28-Aug-00:
+
+
+</small></p></card></wml>

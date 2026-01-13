@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='misc' title='Miscellaneous WAP pages'>
+	<p><big>
+
+		<b>Axel's WAP Links: Miscellaneous</b>
+
+	</big></p><p>
+
+		<a href='/~peterpan/wapper.wml'>Alle Wapper von
+			Peter</a><br/>
+
+		<a href='http://dict.leo.org/wap'>LEO Online
+			Dictionary</a><br/>
+
+		<a href='http://www.saarbruecken.de/sbnet/wap/start.wml'
+			>Saarbrücken Info</a><br/>
+
+		<a href='http://wap.h2g2.com/'>The Hitchhiker's
+			Guide To The Galaxy</a><br/>
+
+		<a href='http://www.linux.org.uk/cgi-bin/wapdiary'
+			>Alan Cox' Diary - WAP/WML version</a><br/>
+
+		<a href='http://www.webelements.com/wapelements/'
+			>WapElements</a> (periodic table of the
+			elements)<br/>
+
+		<a href='http://wap.tabulka.cz/indexen.wml'
+			>Tabulka.cz: Periodic table</a><br/>
+
+		<a href='http://wap.mobible.org/'
+			>wap.MoBible.org</a><br/>
+
+		<a href='http://www.apachesoftware.com/wml/wmldemo.wml'
+			>WML demo,</a> unfortunately not always
+			standard compliant<br/><small>(ok, my pages
+			may have some faults, too... ;-)</small><br/>
+
+	</p><p><small>
+	Last update: 
+	Wednesday, 03-Apr-2002 21:51:56 CEST<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='index' title='Axels WAP Links'>
+	<do name='index' type='index' label='Home'>
+		<noop/>
+	</do><p><big>
+
+		<b>Axel's WAP Links</b>
+
+	</big></p><p>
+
+	</p><p>
+
+		<b>Menü:</b><br/>
+
+		<a href='kino.wml'>Kino</a>
+		<a href='wetter.wml'>Wetter+Bus</a>
+		<a href='dev.wml'>Devices</a>
+		<a href='search.wml'>Search</a>
+		<a href='portal.wml'>Portals</a>
+		<a href='news.wml'>News</a>
+		<a href='email.wml'>e-Mail</a>
+		<a href='local.wml'>Local</a>
+		<a href='own.wml'>Own pages</a>
+		<a href='misc.wml'>Misc</a>
+
+	</p><p><small>
+
+		This is my personal start page, when I'm using a WAP
+		device (mostly a Nokia 6210 :-) or some WAP device
+		emulator like <a href='../wApua/index.wml'>wApua</a>.
+
+	</small></p><p><small>
+	Last update: 
+	Monday, 01-Apr-2002 05:42:48 CEST<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

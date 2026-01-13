@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='portal' title='Axels WAP Links: e-Mail'>
+	<p><big>
+
+		<b>Axel's WAP Links: e-Mail</b>
+
+	</big></p><p>
+
+		<a href='http://web.epost.de/pop3.wml'>ePost</a><br/>
+
+		<a href='http://wap.freemail.de/'>Web.de FreeMail</a><br/>
+
+	</p><p><small>
+	Last update: 
+	Tuesday, 25-Sep-2001 18:27:47 CEST<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

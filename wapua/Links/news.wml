@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='news' title='WAP News'>
+	<p><big>
+
+		<b>Axel's WAP Links: News</b>
+
+	</big></p><p>
+
+		<a href='http://wap.wetteronline.de/'>Wetter
+			Online</a>
+			<a href='http://131.220.67.12/wap/city?de10708'
+				>(Saarbrücken)</a><br/>
+
+		<a href='http://wap.heise.de/'>Heise</a> 
+			<a href='http://wap.heise.de/newsticker/'
+				>(Newsticker)</a><br/>
+
+		<a href='http://www.symlink.ch/wap/#index'>Symlink</a><br/>
+
+		<a href='http://www.nzz.ch/wml/index.wml'>NZZ
+			Online</a><br/>
+
+		<a href='http://wap.n-tv.de/'>N-TV</a><br/>
+
+		<a href='http://derstandard.at/wap/'>Der
+			Standard</a><br/>
+
+		<a href='http://www.bbc.co.uk/mobile/mainmenu.wml'
+			>BBC</a><br/>
+
+	</p><p><small>
+	Last update: 
+	Monday, 17-Dec-2001 17:20:04 CET<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

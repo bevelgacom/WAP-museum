@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='kino' title='Kino'>
+	<p><big>
+
+		<b>Axel's WAP Links: Kino</b>
+
+	</big></p><p>
+
+		<a href='http://www.xanadu-kino-saar.de/wap/p.wml'
+			>Xanadu Kino</a><br/>
+
+		<a href='http://www.asta.uni-sb.de/asta/unifilm/WAP/unifilm.wml'
+			>Unifilm</a><br/>
+
+		Kino SB:
+		<a href='/~peterpan/kinowapper.cgi'>Jetzt</a>
+		<a href='/~peterpan/kino13.cgi'>13h</a>
+		<a href='/~peterpan/kino17.cgi'>17h</a>
+		<a href='/~peterpan/kino20.cgi'>20h</a>
+		<a href='/~peterpan/kino22.cgi'>22h</a><br/>
+
+	</p><p><small>
+	Last update: 
+	Wednesday, 03-Apr-2002 21:52:09 CEST<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

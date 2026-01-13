@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='dev' title='WAP Devices'>
+	<p><big>
+
+		<b>Axel's WAP Links: Devices and Emulators</b>
+
+	</big></p><p>
+
+		<a href='../wApua/index.wml'>wApua WAP Browser</a><br/>
+
+		<a href='http://wap.nokia.de/'>Nokia</a><br/>
+
+		<a href='http://www.slobtrot.com/winwap/index.wml'
+			>WinWAP Browser</a>
+			<small>(for Windows 9x/NT)</small><br/>
+
+
+	</p><p><small>
+	Last update: 
+	Tuesday, 06-Feb-2001 20:41:49 CET<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

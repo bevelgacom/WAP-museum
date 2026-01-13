@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='local' title='Local WAP things'>
+	<p><big>
+
+		<b>Axel's WAP Links: Local things</b>
+
+	</big></p><p>
+
+		See also <a href='kino.wml'
+			>Kino</a> and <a href='wetter.wml'
+			>Wetter+Bus</a><br/>
+
+		<a href='http://wap.dagstuhl.de/'>IBFI Schloss
+			Dagstuhl</a><br/>
+
+		<a href='http://www.saarbruecken.de/sbnet/wap/start.wml'
+			>Saarbrücken Info</a><br/>
+
+	</p><p><small>
+	Last update: 
+	Monday, 01-Apr-2002 06:07:47 CEST<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>

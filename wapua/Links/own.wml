@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<template>
+	<do name='prev' type='prev' label='Back'>
+		<prev/>
+	</do>
+	<do name='index' type='index' label='Index'>
+		<go href='index.wml'/>
+	</do>
+</template>
+
+<card id='own' title='Work &amp; own WAP pages'>
+	<p><big>
+
+		<b>Axel's WAP Links: Work &amp; own pages</b>
+
+	</big></p><p>
+
+		<a href='http://wap.dagstuhl.de/'>IBFI Schloss
+			Dagstuhl</a><br/>
+
+		<a href='../wApua/index.wml'>wApua WAP Browser</a><br/>
+
+		<a href='../index.wml'>WML version of my Home Page</a><br/>
+
+	</p><p><small>
+	Last update: 
+	Monday, 17-Dec-2001 17:26:39 CET<br/>
+	Axel Beckert
+	<a href="mailto:abe&#64;fsinfo.cs.uni-sb.de"
+		>&lt;abe&#64;fsinfo.cs.uni-sb.de&gt;</a>
+</small></p>
+
+</card>
+
+</wml>
