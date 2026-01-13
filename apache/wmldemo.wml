@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+	<do type="prev" label="Back">
+		<prev/>
+	</do>
+	<do type="accept" label="Demo Home">
+		<go href="#index"/>
+	</do>
+
+</template>
+
+<card id="index" title="WML Demo" newcontext="true">
+	<do type="accept">
+		<noop/>
+	</do>
+	<p>
+	</p>
+	<p>
+	This demonstration is intended to highlight some WML features.<br/>
+	Some of the accompaning text explicitly refers to how <strong>Klondike </strong>
+	implements features, and might not apply to other browsers.
+	</p>
+	<p>
+	<br/>
+	<br/>
+	<a href="text.wml#textali">Text Alignment</a><br/>
+	<a href="text.wml#textemp">Text Emphasis</a><br/>
+	<a href="text.wml#table">Table</a><br/>
+	<a href="mulcard.wml">Multiple Cards</a><br/>
+	<a href="selbox.wml">Selection Boxes</a><br/>
+	<a href="variable.wml">Variables</a><br/>
+	<a href="variable.wml#variableesc">Variable escaping</a><br/>
+	<a href="textinput.wml">Text Input</a><br/>
+	<a href="timers.wml">Timer</a><br/>
+	<a href="access.wml">Access Restrictions</a><br/>
+	
+	<anchor>
+	<go href="shadow.wml" sendreferer="true"/>Deck-card task shadowing
+	</anchor><br/>
+	<a href="intrinsec.wml">Card intrinsec events</a><br/>
+	<br/>
+	</p>
+</card>
+</wml>

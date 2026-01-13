@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+
+        <do type="prev" label="Back">
+		<prev/>
+	</do>
+	<do type="accept" label="Demo Home">
+		<go href="wmldemo.wml"/>
+	</do>
+
+</template>
+
+<card id="selbox" title="Selection Boxes">
+<p>This card demonstrates navigation which is bound to selection in a selection
+box.<br/> Select any of the options below and you the browser will navigate to
+the corresponding card.<br/><br/> 	 	<select>
+		<option onpick="single.wml">Single Selection</option>
+		<option onpick="multiple.wml">Multiple Selection</option>
+	</select><br/><br/></p>
+</card>
+</wml>

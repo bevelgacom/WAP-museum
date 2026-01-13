@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<template>
+		<do type="prev" label="Back">
+			<prev/>
+		</do>
+		<do type="accept" label="Demo Home">
+			<go href="wmldemo.wml"/>
+		</do>
+
+	</template>
+
+	<card id="shadow" title="Deck-Card task shadowing"><p>
+		The tasks and intrinsec events can be specified at deck and card level. A task or event specified at card level shadows the same task
+		or event specified at the deck level. For example, the &quot;Back&quot; and &quot;Demo Home&quot; buttons are tasks
+		specified at the deck level. The &quot;Demo Home&quot; button is shadowed on the main page with a &lt;noop&gt; task, so it will
+		not display on that page.</p>
+	</card>
+</wml>

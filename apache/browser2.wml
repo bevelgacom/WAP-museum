@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<card id="browser" title="WML Browser">
+	<do type="accept" label="Back">
+		<prev/>
+	</do>
+	<p>
+	<small>The product implements the Wireless Markup Language
+	Specification Version 1.2 (through the <a href="engine.wml">Klondike
+	WAP Microbrowser Engine</a>) including:<br/><br/> 	 - Character
+	entities<br/> 	 - Text input and validation<br/> 	 - Single and
+	multiple selection boxes<br/> 	 - Variable substitution<br/> 	 -
+	Task  navigation, history and intrinsic events, browser context, new 
+	context<br/> 	 - Deck-card task and event shadowing<br/> 	 -
+	Deck access control<br/> 	 - GET and POST method, variable
+	escaping<br/> 	 - Timers<br/> 	 - Bitmaps and bitmap anchors<br/><br/>
+
+	The Internet communication can be established either through HTTP/1.1,
+or through a WAP Gateway.<br/>The browser has the following features:<br/>
+	 - History navigation and navigation bar<br/> 	 - Favorites<br/>
+	 - Source document viewing and saving<br/>
+
+
+	</small>
+	</p>
+	</card>
+</wml>

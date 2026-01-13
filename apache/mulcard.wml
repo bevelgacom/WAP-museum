@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+	<do type="prev" label="Back">
+		<prev/>
+	</do>
+	<do type="accept" label="Demo Home">
+		<go href="wmldemo.wml"/>
+	</do>
+
+</template>
+
+<card id="mulcard" title="Multiple Cards">
+<p>A <b>WML deck</b> consists of <b>one or more cards</b>. One card (or part
+of) is displayed in the browser at any particular time. The Internet
+<b>navigation unit is the deck</b>. Browsers fetch information over the
+Internet one deck at a time. <b>Fragment navigation</b> happens locally in the
+browser between cards which belong to the same deck.<br/><br/> With Klondike,
+the number of cards in the current deck is displayed in the status
+bar.<br/><br/></p> </card> </wml>

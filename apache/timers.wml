@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<template>
+		<do type="prev" label="Back">
+			<prev/>
+		</do>
+		<do type="accept" label="Demo Home">
+			<go href="index.wml"/>
+		</do>
+
+	</template>
+	<card id="timers" title="Timer" ontimer="variable.wml">
+		<timer name="timer" value="200"/>
+	<p>
+		WML supports card level timers. Timers can be named, i.e. the
+		value of the timer upon exiting	a card, either by navigation
+		or by a timer triggered event, is stored as a variable and
+		the value is used the next time a card containing a timer
+		with the same name is activated. Unnamed timers reload the
+		timer countdown value every time the card is loaded.<br/><br/>
+		Watch the status bar. It shows the number of seconds left
+		until the timer will trigger an event.	<br/>
+		You can <a href="variable.wml">click here</a> to pause
+		the timer and view the environment variables.<br/><br/> 
+		If the status bar does not show the timer countdown, 	
+		<anchor>click here  
+			<refresh>
+ 	 		<setvar name="timer" value="200"/> 		
+			</refresh>
+ 		</anchor> to refresh this page
+		and reload the timer with another 20 seconds. This is also an
+		example of <em>setvar</em>, another way to set variables in
+		the browser context<br/><br/>  	The variable
+		name for this timer element is <em>timer</em>  
+	</p>
+	</card> 
+</wml>

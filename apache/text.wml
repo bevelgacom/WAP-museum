@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<template>
+		<do type="prev" label="Back">
+			<prev/>
+		</do>
+		<do type="accept" label="Demo Home">
+			<go href="index.wml"/>
+		</do>
+
+	</template>
+
+	<card id="textali" title="Text Alignment">
+		<p align="center">Center aligned text</p>
+		<p align="left">Left aligned text</p>
+		<p align="right">Right aligned text</p>
+	</card>
+
+	<card id="textemp" title="Text Emphasis">
+		<p><strong>strong</strong>, <small>small</small>,
+		<big>big</big>, <em>emphasis</em>, <u>underline</u>,
+		<i>italic</i>, <b>bold</b><br/><br/></p>
+	</card>
+
+	<card id="table" title="Table">
+		<p align="center">
+			<table columns="2">
+				<tr>
+					<td>
+						1.
+					</td>
+					<td>
+						<a href="#textali">Text Alignment</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2.
+					</td>
+					<td>
+						<a href="#textemp">Text Emphasis</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3.
+					</td>
+					<td>
+						<a href="index.wml">Demo Home</a>
+					</td>
+				</tr>
+			</table>
+		</p>
+	</card>
+</wml>

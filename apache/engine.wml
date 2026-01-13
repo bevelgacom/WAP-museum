@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<card id="engine" title="WAP Engine">
+	<do type="accept" label="Back">
+		<prev/>
+	</do><p>
+	
+	<strong>The Klondike WAP Microbrowser Engine </strong>is the engine
+which enables the <a href="browser.wml">Klondike WAP Browser</a>. 	The
+engine implements the Wireless Markup Language Specification Version 1.2.
+	The engine is specially designed for micro-browsers running on small
+devices with very limited memory. It can be easily ported to any device
+platform that supports the C programming language. The engine has a very small
+footprint. Memory allocation requirements during runtime extremely careful
+managed and kept to minimum. 	The Klondike WAP Microbrowser Engine is a
+product targeted at device manufacturers who wish to make a jump-start in
+developing device specific browsers.  	For more information on the Klondike
+WAP Engine please visit our Web Site.</p>
+</card> </wml>

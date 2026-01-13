@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+	<do type="prev" label="Back">
+		<prev/>
+	</do>
+	<do type="accept" label="Demo Home">
+		<go href="wmldemo.wml"/>
+	</do>
+
+</template>
+
+<card id="textinp" title="Text Input">
+	<p>The input box is empty if you did not input any text, the text input
+	was invalid, or	you reset the context.<br/>
+	The text in this box follows the following input mask: XX-NN<br/>
+	This means,<br/>Upper case letter<br/>Upper case letter<br/>-(dash)<br/>number<br/>number<br/>
+	While you input the text, watch the status bar for information about the next
+	character you are expected to enter, and the validity of the whole text input.<br/>
+	If you choose to navigate and the text in the input box is not valid, the corresponding
+	variable will not be set with your input.
+	<br/>
+	<input name="input" format="XX\-NN"/><br/>
+	The variable name for this selection box is <em>input</em>.
+	<a href="variable.wml">Click here</a> to view the environment variables after you made your selection.
+	<br/></p>
+</card>
+</wml>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="main">
+<p>
+Check this page often for news and updates.<br/><br/>
+<strong>NEW!
+</strong> Klondike WAP Browser for Pocket PC version 1.5 is now available and replaces the previous versions. New features include an updated WAP communication stack including WTLS and a WML Script interpreter.<br/><br/>
+Klondike WAP Browser for Pocket PC version 1.0 is now available for download.<br/>
+Klondike WAP Browser for Windows version 1.1 is now
+available for download.<br/>
+<br/>
+<anchor>Back
+	<prev/>
+</anchor>
+</p>
+</card>
+</wml>

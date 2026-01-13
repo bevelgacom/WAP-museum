@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<!--access	domain="www.apachesoftware.com"-->
+<!--/access-->
+<template>
+	<do type="accept" label="Back">
+		<prev/>
+	</do>
+</template>
+
+<card id="welcome" title="Welcome">
+	<do type="accept" label="Back">
+		<noop/>
+	</do>
+	<p align="center"><img width="92" height ="71" src="apache2.wbmp"
+alt="logo"/> 	<br/>
+	<br/></p>
+	<p align ="center"><strong>Welcome to the home of
+Klondike!</strong></p> 	<p><br/><br/>
+
+	<b>New! </b>The Klondike WAP Browser for PocketPC 1.5 is now available for download. New features include an updated WAP communication stack including WTLS and a WML Script interpreter.  
+	<br/><br/>
+	The Klondike WAP Browser Personal Edition for Windows
+	version 1.1 is now available for download on the Web at: <br/>
+	<em>http://www.apachesoftware.com</em><br/><br/>
+	<strong>Please choose:</strong><br/>
+	<a href="products.wml">Products</a><br/>
+	<a href="#corporate">Corporate Info</a><br/>
+	<a href="links.wml">Links</a><br/>
+	<br/>
+	<a href="wmldemo.wml">WML Demo</a><br/>
+	<a href="klondike.wml">Klondike News</a><br/>
+	<br/>
+	<small>We appreciate your comments!<br/>E-mail us at:
+	comments@apachesoftware.com</small></p>
+</card>
+
+<card id="corporate" title="Corporate Info">
+	<p><small>
+	Apache Software Consulting Inc.<br/>
+	1764 Rathburn Road East, Unit 38 <br/>
+	Mississauga, Ontario L4W 2N8 <br/>
+	Canada<br/>
+	<br/>
+
+	Tel:(905) 629 - 9506<br/>
+	<br/>
+	E-mail: info@apachesoftware.com	
+</small></p>
+
+</card>
+
+</wml>
+
+ 

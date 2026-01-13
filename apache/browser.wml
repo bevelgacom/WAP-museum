@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<card id="browser" title="WML Browser">
+	<do type="accept" label="Back">
+		<prev/>
+	</do>
+	<p>
+	<small><strong>The Klondike WAP Browser for Windows</strong> is a WAP 
+	browser which runs on any 32 bit Windows platform and allows
+        you to view WML pages over the Internet or locally from your
+        hard drive. Klondike's look and 	feel is similar to that of your
+favorite HTML browser. 	However, the 	standard HTML browsers (Netscape
+Navigator, Microsoft IE, etc) are not 	designed to support WML. The Klondike
+WAP Browser Personal Edition is free for non-commercial use.For a demonstration
+of WML features, 	download Klondike and visit us at:  
+	http://www.apachesoftware.com/wml/index.wml<br/><br/>
+	<a href="browser2.wml">More...</a>
+
+	</small>
+	</p>
+	</card>
+</wml>

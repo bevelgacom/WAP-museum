@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+	<do type="prev" label="Back">
+		<prev/>
+	</do>
+	<do type="accept" label="Demo Home">
+		<go href="wmldemo.wml"/>
+	</do>
+
+</template>
+
+<card id="variable" title="Environment Variables">
+	<p>
+	This card ilustrates variable substitution.<br/>
+	Variable references are replaced with their actual values in the browser context.<br/>
+	Here are the variables used in this demonstration:
+	</p>
+	<p align="center">
+		<table columns="2">
+			<tr>
+				<td>
+					<b>Name</b>
+				</td>
+				<td>
+					<b>Value</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					single
+				</td>
+				<td>
+					$(single)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					multiple
+				</td>
+				<td>
+					$(multiple)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					input
+				</td>
+				<td>
+					$(input)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					timer
+				</td>
+				<td>
+					$(timer)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					esc_text
+				</td>
+				<td>
+					$(esc_text:escape)
+				</td>
+			</tr>
+		</table>
+	</p>
+	<p>
+	<br/>
+	If you navigate back to the cards which contain these user interface elements, you will see that the selections are the same, i.e. the variables persist, unless you <a href="#newcontext">click here</a> to clean up the current browser context and establish a new one.
+	<br/>
+	<br/>
+	</p>
+</card>
+<card id="newcontext" newcontext="true" title="Browser Context">
+<p>
+This card has a <em>newcontext</em> directive.<br/>
+All variables were deleted from the browser's memory.
+</p>
+</card>
+
+<card id="variableesc" title="Variable Escaping">
+<p>
+	This card ilustrates variable escaping, used mainly for parameter list
+	buildup in the navigation process.<br/> 	
+	Input some text in the	input box<br/> 
+	<input name="esc_text" value="$(esc_text:unescape)"/><br/>
+ 	The text can contain any characters and will be URL escaped<br/>
+	The variable name for the input is <em>esc_text</em><br/> 
+	<anchor>Click here 
+		<go href="variable.wml">
+		</go>
+	</anchor>
+	to view the environment variables after you typed in the text.
+</p>
+</card>
+</wml>

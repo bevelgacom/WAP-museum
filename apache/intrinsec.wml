@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+	<do type="prev" label="Back">
+		<prev/>
+	</do>
+	<do type="accept" label="Demo Home">
+		<go href="wmldemo.wml"/>
+	</do>
+
+</template>
+
+<card id="intrinsec1" title="Intrinsec events #1" onenterforward="intrinsec.wml#intrinsec2">
+	<do type="accept">
+		<noop/>
+	</do>
+<p>
+This card can only be seen when navigating <b>back</b> to it.<br/>
+When navigating <b>forward</b> to it, it contains an <em>onenterforward</em> event which causes the navigation to jump
+to that event's URL.
+</p>
+</card>
+<card id="intrinsec2" title="Intrinsec events #2">
+	<do type="accept">
+		<noop/>
+	</do>
+<p>
+	Please navigate backward.
+</p> 
+</card>
+</wml>

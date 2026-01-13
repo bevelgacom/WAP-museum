@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="links" title="Links">
+	<do type="accept" label="Back">
+		<prev/>
+	</do>
+	<p>
+	<strong>General WAP</strong><br/>
+	<a href="http://www1.wapforum.org/wml/home.asp">WAP Forum</a><br/>
+	<a href="http://kurius.hypermart.net/wml11/faq.wml#index">WAP FAQ</a><br/>
+	<a href="http://webcab.de/i.wml">Webcab</a><br/>
+	</p>
+
+	<p>
+	<strong>News Services</strong><br/>
+	<a href="http://wap.yahoo.com/">Yahoo!</a><br/>
+	<a href="http://wap.ananova.com/">Ananova</a><br/>
+	<a href="http://wap.lycos.com/">Lycos</a><br/>
+	<a href="http://www.123jump.com/wap/#home">123Jump</a><br/>
+	</p>
+
+	<p>
+	<strong>Search Engines</strong><br/>
+	<a href="http://wap.compuserve.de/wap/lycos/lycos.wml">Compuserve</a><br/>
+	<a href="http://www.orktopas.com/">Orktopas</a><br/>
+	<a href="http://mopilot.com/wml/index.wml">Mopilot</a><br/>
+	<a href="http://195.232.84.233/cgi/inktomi.pl">Inktomi</a><br/>
+	<a href="http://wapmap.com/">Wapmap</a><br/>	
+	</p>
+
+	<p>
+	<strong>Other</strong><br/>
+	<a href="http://wap.compuserve.de/index.wml">Compuserve</a><br/>
+	<a href="http://osakahealth.wapmatic.de">Osaka Health Online</a><br/>	
+	<a href="http://www.phoneafact.com/index.wml">Phone Facts</a><br/><br/>
+</p>
+</card>
+</wml>
