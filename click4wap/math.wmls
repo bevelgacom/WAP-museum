@@ -1,0 +1,16 @@
+extern function setInt(varName1, varName2) {
+	WMLBrowser.setVar(varName1, Lang.maxInt());
+	WMLBrowser.setVar(varName2, Lang.minInt());
+	WMLBrowser.refresh();
+}
+
+extern function setFloat(varName1, varName2) {
+	WMLBrowser.setVar(varName1, Float.maxFloat());
+	WMLBrowser.setVar(varName2, Float.minFloat());
+	WMLBrowser.refresh();
+}
+
+extern function setRandom(varName1) {
+	WMLBrowser.setVar(varName1, Lang.random(100));
+	WMLBrowser.refresh();
+}
