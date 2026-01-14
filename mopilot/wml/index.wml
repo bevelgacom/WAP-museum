@@ -1,0 +1,73 @@
+<?xml version = "1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+  <card id="srch" title="mopilot.com by wap4">
+   <p align="center"><img src="images/mopilot.wbmp" alt="mopilot.com"/></p>
+    <p align="center">
+      <small>w@p search engine</small>
+      <br/>
+       search: 
+      <input format="*M" name="srch" title="search for:"/>
+      <br/>
+      <b><a href="wmllist.php3?srch=$(srch:escape)&amp;match=$(match:escape)&amp;lang=$(lang:escape)&amp;q=$(q:escape)&amp;format=$(format:escape)">do search</a></b>
+      <br/>
+      <small><a href="#opts">search options</a></small>
+      <br/>
+      <small><a href="svcrpt.wml">report problems!</a></small>
+      <br/>
+      <small><a href="#addurl">register your site</a></small>
+      <br/><br/>
+      <small><a href="http://mopilot.com/portal/main.php3">preview portal</a></small>
+      <br/>
+	<small><a href="http://wap4.com/wml/start.wml">services at wap4.com</a></small>
+      <br/>
+    </p>
+    <p align="left">
+      <small>&#169; 1999 <anchor>info@wap4.com<go href="http://wap4.com/wml/mail.php3" method="post">
+	<postfield name="to" value="info@wap4.com"/>
+        <postfield name="sj" value="[feedback] wap4.com"/>
+        </go>
+      </anchor></small>
+    </p>
+  </card>
+  <card id="opts" title="search options">
+    <p>
+      <br/>
+      <small>match:</small>
+      <select name="match" value="and" title="match type">
+        <option value="or">any word</option>
+        <option value="and">every word</option>
+        <option value="exact">complete phrase</option>
+      </select>
+      <br/>
+      <small>show max:</small>
+      <select name="q" value="2" title="results per deck">
+        <option value="2">2</option>
+        <option value="4">4</option>
+        <option value="8">8</option>
+      </select>
+      <br/>
+      <small>display:</small>
+      <select name="format" value="s" title="dislpay results">
+        <option value="s">standard</option>
+        <option value="k">compact</option>
+      </select>
+    </p>
+    <p align="center">
+      <small><a href="#srch">back to search</a></small>
+      <br/>
+    </p>
+  </card>
+  <card id="addurl" title="mopilot:add URL">
+    <p>
+	To add your own site, please go to http://mopilot.com with a normal html-browser.<br/>
+	There, you may supply additional information such as keywords and a description <br/><br/>
+	Thank you!
+    </p>
+    <p align="center">
+      <small><a href="#srch">back to search</a></small>
+	<a href="content/"><br/></a>
+    </p>
+  </card>
+</wml>
+

@@ -1,0 +1,82 @@
+<?xml version = "1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="start" title="mopilot.com">
+    <p align="center"><img src="images/mopilot.wbmp" alt="mopilot.com"/></p>
+    <p align="center"><small>your personal<br/>mobile agent</small></p>
+
+        <p align="center">--</p>
+
+        <p align="center">
+
+	<a title="new!" href="http://mopilot.com/portal/signon.php3">check in!</a><br/>
+
+	<small>-- it's free! --</small><br/>
+
+        <a title="features" href="features.wml">new features</a><br/>
+
+        <a title="search" href="search.wml">search engine</a><br/>
+
+        <a title="portal" href="#portal">mobile portal</a><br/>
+
+        <a title="fun" href="fun.wml">chat &amp; fun</a><br/>
+
+        <a title="mail&amp;co" href="messaging.wml">mail &amp; icq</a><br/>
+
+        <a title="news" href="news.wml">news &amp; info</a><br/>
+
+        <a title="admins" href="admzone.wml">admintools</a><br/>
+
+        <a title="about" href="about.wml">about us</a><br/>
+
+<!--        <a title="partners" href="partners.wml">our partners</a><br/> -->
+
+	<a title="feedback" href="svcrpt.wml">report problems!</a><br/>
+
+	<a title="go..."  href="#go">open URL</a>
+
+        </p>
+
+        <p align="center">--</p>
+
+    <p align="center" mode="nowrap">
+        <small>&#169; 1999,2000<br/>
+        <anchor title="contact us">info@mopilot.com<go href="mail.php3" method="post">
+        <postfield name="to" value="info@mopilot.com"/>
+        <postfield name="sj" value="feedback:mopilot.com"/> 
+        </go>
+      </anchor></small>
+    </p>
+	<do type="prev"><prev/></do>
+</card>
+<card id="portal" title="mobile portal" >
+
+      <do type="prev"><prev/></do>
+
+        <p align="center">
+        <img src="images/mopilot.wbmp" alt="mopilot.com"/>
+        </p>
+        <p align="center">
+                <b>login:</b> <input name="log" /><br/>
+        <b>passwd:</b> <input name="pwd" type="password"/>
+        <br/>
+        <anchor>
+        login
+        <go href="/portal/main.php3">
+        <postfield name="log" value="$(log)"/>
+        <postfield name="pwd" value="$(pwd)"/>
+        </go>
+        </anchor><br/>
+        now or
+        <br/>
+        <a href="/portal/signon.php3">sign up for free!</a><br/><br/>
+        <a title="back" href="#start">main menu</a>
+        </p>
+
+</card>
+<card id="go" title="open URL">
+        <do type="prev" label="back"><prev/></do>
+        <p>enter URL:&nbsp; <input name="url" value="http://" format="*m"/></p>
+        <p align="center"><anchor>go there!<go href="$(url:u)"/></anchor></p>
+</card>
+</wml>
