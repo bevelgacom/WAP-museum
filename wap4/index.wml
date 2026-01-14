@@ -1,0 +1,11 @@
+<?xml version = "1.0"?><!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+<card id="redirect" ontimer="http://wap4.com/wml/start.wml" title="WAP4.COM" newcontext="true">
+<timer value="1"/><p><small>You are using ia_archiver</small><br/>
+Directing you to : <a href="http://wap4.com/wml/start.wml">http://wap4.com/wml/start.wml</a><br/>
+Loading WML... Please Wait</p>
+</card>
+</wml>
+
+

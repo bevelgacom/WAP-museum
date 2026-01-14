@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="start" title="wap4.com"> 
+    <do type="prev" label="back"><prev/></do>
+    <p align="center"><img src="logo.wbmp" alt="wap4.com"/></p>
+    <p align="center"><small>mobile applications</small></p> 
+    <p><br/>
+	We are dedicated to the development and design for services and applications for the mobile Internet.
+	<br/>If you feel we could be your partner of choice, contact us for further details.<br/></p>
+    <p align="left">
+      <small>&#169; 1999 <anchor>info@wap4.com
+        <go href="http://wap4.com/wml/mail.php3?to=info@wap4.com&amp;sj=[contact]" method="get"></go>
+      </anchor></small>
+    </p>
+</card>
+</wml>

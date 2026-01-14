@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="start" title="wap4.com"> 
+    <do type="prev" label="back"><prev/></do>
+    <p align="center"><img src="logo.wbmp" alt="wap4.com"/></p>
+    <p align="center"><small>mobile applications</small></p> 
+    <p align="left"><b>make your choice:</b></p>
+
+
+    <p><img src="info.wbmp" alt=" "/><a href="info.wml">about</a></p>
+    <p><img src="srch.wbmp" alt=" "/><a href="http://mopilot.com/wml/index.wml">mopilot.com</a></p>
+    <p><img src="mail.wbmp" alt=" "/><a href="mail.wml">send mail</a></p>
+    <p><img src="open.wbmp" alt=" "/><a href="#go">open url</a></p>
+    <p><img src="status.wbmp" alt=" "/><a href="headers.php3">headers</a></p>
+    <p><img src="and.wbmp" alt=" "/><a href="partners.wml">partners</a></p>
+
+    <p align="left">
+      <small>&#169; 1999 <anchor>info@wap4.com<go href="mail.php3" method="post">
+	<postfield name="to" value="info@wap4.com"/>
+        <postfield name="sj" value="[feedback] wap4.com"/>
+        </go>
+      </anchor></small>
+    </p>
+</card>
+<card id="go" title="open URL">
+	<do type="prev" label="back"><prev/></do>
+	<p>enter URL:&nbsp; <input name="url" value="http://" format="*m"/></p>
+	<p align="center"><anchor>go there!<go href="$(url:u)"/></anchor></p>
+</card>
+</wml>
