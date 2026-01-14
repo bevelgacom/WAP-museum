@@ -36,6 +36,7 @@ Do whatever you want. We just place old WML dumps here to preserve them.
 - http://www.phoneafact.com/index.wml
 - https://en.wikipedia.org/wiki/MoPilot - https://web.archive.org/web/20010604051019/http://mopilot.com/index.htm
 - https://web.archive.org/web/20051214144729/http://www.palowireless.com/wap/
+- https://web.archive.org/web/20010302023538/http://all4wapsites.com/
 
 ## Known WAP sites that are lost 
 
